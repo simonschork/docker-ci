@@ -1,18 +1,13 @@
 from flask import Flask
-from flask_restful import Resource, Api
 
 # Instantiate the app
 app = Flask(__name__)
-api = Api(app)
 
 
-class Product(Resource):
-    def get(self):
-        return {"weine": ["Sauvigon Blanc", "Chardonnay", "Dornfelder"]}
+@app.route("/")
+def get_weine():
+    return {"weine": ["Sauvignon Blang", "Chardonnay", "Dornfelder", "Grauburgunder"]}
 
-
-# Create routes
-api.add_resource(Product, "/")
 
 # Run the application
 if __name__ == "__main__":

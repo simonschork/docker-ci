@@ -12,12 +12,11 @@
             $json = file_get_contents('http://weine-service/');
             $obj = json_decode($json);
 
-            $weine = $obj->products;
+            $weine = $obj->weine;
 
             foreach ($weine as $wein) {
                 echo "<li>$wein</li>";
             }
-
             ?>
         </ul>
     </body>
