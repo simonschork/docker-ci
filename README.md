@@ -1,3 +1,3 @@
 # docker-ci
 
-Project to demonstrate a docker pipeline with GitHub.
+Project to demonstrate a docker pipeline with Git.
