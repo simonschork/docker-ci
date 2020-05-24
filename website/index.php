@@ -5,7 +5,7 @@
     </head>
 
     <body>
-        <h1>Weinauswahl:</h1>
+        <h1>Weinauswahl</h1>
         <ul>
             <?php
 
