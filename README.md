@@ -1,3 +1,3 @@
 # docker-ci
 
-Project to demonstrate a docker pipeline within GitLab.
+Project to demonstrate a docker pipeline with GitHub.
